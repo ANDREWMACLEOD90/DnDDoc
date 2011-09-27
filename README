@@ -1,2 +1,4 @@
-Initial revision of Dangerous Doughnuts Documentation
+Run
+$ make
 
+every time you want to generate report_draft.pdf
