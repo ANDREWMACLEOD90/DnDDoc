@@ -1,7 +1,7 @@
 all: report_draft.pdf
 
-report_draft.pdf: report_draft.tex
-	pdflatex report_draft
+%.pdf: %.tex
+	pdflatex $(subst .tex,,$<)
 
 clean:
 	rm *.log
