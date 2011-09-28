@@ -1,4 +1,7 @@
 \documentclass{article}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
 \usepackage{hyperref}
 \hypersetup{
     colorlinks,%
@@ -8,9 +11,13 @@
     urlcolor=blue
 }
 
+\input{vc.tex} % Version control
+\lfoot{Rev \GITAbrHash, \GITAuthorDate, \GITAuthorName.}
+
 \newcommand{\pawel}{Pawe\l}
 \newcommand{\jakstys}{Jak\v{s}tys}
 \newcommand{\dnd}{Dangerous Doughnuts}
+
 
 \begin{document}
 \title{\dnd\ (Team D) - Team Organisation Plan} %Is it possible to put ``Team organisation plan'' at a new line???
